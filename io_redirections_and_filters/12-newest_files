@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head
+ls -1t | grep "^[0-9]" | head -n10
