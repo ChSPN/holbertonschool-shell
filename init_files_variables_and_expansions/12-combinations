@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {a..b}{a..z}\\n | grep -v oo | tr -d ' ' | head -n -1
