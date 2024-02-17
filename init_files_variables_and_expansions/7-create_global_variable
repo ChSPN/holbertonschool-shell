@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'BEST="School"' >> /etc/enviromnent
+sudo sh -C 'echo BEST=School >> /etc/environment'
