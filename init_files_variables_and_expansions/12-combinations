@@ -1,3 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr '"'"''"'"''"'"' '"'"''"'"''"'"' '"'"''"'"''"'"'
-'"'"''"'"''"'"' | grep -v oo
+echo -e {a..z}{a..z}\\n | head -n -1 | tr -d ' ' | grep -v oo
