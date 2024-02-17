@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo sh -C 'echo BEST=School >> /etc/environment'
+echo 'export BEST="School"' >> ~/.profile
+
